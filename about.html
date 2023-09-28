@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online document</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub_header">
+                <nav>
+                    <a href="index.html"> <a href="" class="maru">MARUTHAMBIGAI</a> </a>
+                    <div class="nav_link" id="navLink">
+                        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+                <h1>About Us</h1>
+        </section>
+
+        <!-- --------about us content------- -->
+        <section class="about_us">
+                <div class="row">
+                    <div class="about_col">
+                        <h1>We are the world's largest university</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iste consequuntur nobis vel rerum iusto 
+                            assumenda quaerat, unde voluptatum distinctio facere eum labore omnis culpa, sed ad porro excepturi quisquam a velit, 
+                            \nostrum ipsam magnam. Temporibus, ab. Officia, laborum totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Placeat enim quisquam fugiat voluptatibus ea odit adipisci iusto magnam consectetur nihil? Lorem ipsum dolor sit amet 
+                            consectetur adipisicing elit. Doloremque, placeat qui! Alias ad reprehenderit, quae doloredolorum quasi 
+                             voluptatem deserunt impedit deleniti aliquid ipsam perspiciatis laudantium animi fugiat, quas placeat?</p>
+                             <a href="" class="hero_btn red_btn">EXPLORE NOW</a>
+                    </div>
+                    <div class="about_col">
+                        <img src="images/about.jpg" alt="">
+                    </div>
+                </div>
+        </section>
+
+        <!-- footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam neque animi, alias modi autem sapiente maxime <br>magni 
+                quibusdam debitis saepe hic inventore odio natus explicabo dolore? Aliquid rerum alias quos.</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="fa fa-star-half-o"></i> by Marutha</p>
+        </section>
+
+
+        <script>
+            var navLink = document.getElementById("navLink");
+            function showMenu(){
+                navLink.style.right="0"
+            }
+            function hideMenu(){
+                navLink.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>
